@@ -94,10 +94,34 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   YOUR CUSTOM STYLES HERE
    ========================================================================== */
+body{
+    background-color: #f2f2f2;
+    font-family: 'Roboto',sans-serif;
+}
 
+.comments textarea{
+    width: 100%;
+    max-width: 100%;
+    height: 84px;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    font-family: 'Roboto',sans-serif;
+    line-height: 30px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
 
+.comment{
+    font-size: 14px !important;
+}
+
+.tools button{
+    border-radius: 30px;
+    color: #6c757d;
+}
 
 
 

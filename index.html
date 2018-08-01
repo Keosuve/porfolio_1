@@ -1,73 +1,105 @@
-asseets/<!doctype html>
+<!doctype html>
 <html class="no-js" lang="es">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="assets/css/normalize.css">
-  <!-- Plugins -->
-  <link rel="stylesheet" href="asseets/css/plugins/bootstrap/bootstrap.min.css">
-  <link rel="stylesheet" href="asseets/css/plugins/fontawesome-5.1.1/solid.min.css">
-  <link rel="stylesheet" href="asseets/css/plugins/fontawesome-5.1.1/brands.min.css">
-  <link rel="stylesheet" href="asseets/css/plugins/fontawesome-5.1.1/fontawesome.min.css">
-  <!-- End Plugins -->
-  <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+     <!-- Place your favorite fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.1.1/solid.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.1.1/brands.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.1.1/fontawesome.min.css">
+    <!-- End Plugins -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <style>
+    </style>
 </head>
 
-<body class="text-white bg-dark text-center">
+<body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <header class="masthead mb-auto">
-          <div class="inner">
-            <p class="display-1"><i class="fab fa-html5"></i></p>
-          </div>
-        </header>
-        <main role="main" class="inner cover">
-            <br><br><br>
-          <h3 class="cover-heading"> <i class="fa fa-edit"></i> Insert your code.</h3>
-          <p class="lead">A new adventure is waiting for you</p>
-          <p class="lead"><br>
-            <a href="#" class="btn btn-lg btn-secondary">Let's Go!</a><br>
-          </p>
-          <br><br>
-           <p class="lead">Using Html5Boilerplate, Bootstrap 4, FontAwesome 5.1, and more...!</p>
-        </main>
-
-        <footer class="mastfoot mt-auto fixed-bottom">
-          <div class="inner">
-            <p>Powered with <i class="fa fa-heart"></i> by 88 Design</p>
-          </div>
-        </footer>
-      </div>
-
-
+    <div class="container-fluid">
+        <div class="row justify-content-center mt-4">
+            <div class="col-6">
+                <p class="text-muted"><i class="fa fa-comment"></i> Añadir nuevo comentario:</p>
+                <form action="" class="comments d-flex flex-wrap justify-content-end">
+                    <textarea name="new_comment" id="new_comment" rows="5" placeholder="Comentario"></textarea>
+                    <button class="btn btn-info mt-2"> Comentar</button>
+                </form>
+                <div class="media border-top my-3 py-3">
+                    <img src="img/persona1.jpg" width="64px" height="64px" alt="" class="img-thumbnail rounded-circle mr-2">
+                    <div class="media-body">
+                        <p class="name text-info mb-0 w-100">Jhon Doe <small class="text-gray-dark float-right">07:52 pm, Hoy</small></p>
+                        <p class="comment text-justify text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit inventore a, incidunt quidem ex odio enim neque delectus perferendis beatae qui aut! Debitis libero natus recusandae, veniam beatae laboriosam vero.
+                        </p>
+                        <div class="tools text-right">
+                            <button class="btn btn-sm p-1 btn-light">Responder</button>
+                            <button class="btn btn-sm p-1 btn-light">Editar</button>
+                            <button class="btn btn-sm p-1 btn-light">Borrar</button>
+                        </div>
+                        <div class="media border-top my-3 py-3">
+                            <img src="img/persona2.jpg" width="64px" height="64px" alt="" class="img-thumbnail rounded-circle mr-2">
+                            <div class="media-body">
+                                <p class="name text-info mb-0 w-100">Jhon Doe <small class="text-gray-dark float-right">07:52 pm, Hoy</small></p>
+                                <p class="comment text-justify text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit inventore a, incidunt quidem ex odio enim neque delectus perferendis beatae qui aut! Debitis libero natus recusandae, veniam beatae laboriosam vero.
+                                </p>
+                                <div class="tools text-right">
+                                    <button class="btn btn-sm p-1 btn-light" data-toggle="tooltip" title="Responder">Responder</button>
+                                    <button class="btn btn-sm p-1 btn-light">Editar</button>
+                                    <button class="btn btn-sm p-1 btn-light">Borrar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media border-top my-3 py-3">
+                            <img src="img/persona3.jpg" width="64px" height="64px" alt="" class="img-thumbnail rounded-circle mr-2">
+                            <div class="media-body">
+                                <p class="name text-info mb-0 w-100">Jhon Doe <small class="text-gray-dark float-right">07:52 pm, Hoy</small></p>
+                                <p class="comment text-justify text-muted">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit inventore a, incidunt quidem ex odio enim neque delectus perferendis beatae qui aut! Debitis libero natus recusandae, veniam beatae laboriosam vero.
+                                </p>
+                                <div class="tools text-right">
+                                    <button class="btn btn-sm px-3 btn-light" data-container="body" data-toggle="popover" title="Titulo" data-content="Lorem ipsum dolor sit amet.">Responder</button>
+                                    <button class="btn btn-sm px-3 btn-light">Editar</button>
+                                    <button class="btn btn-sm px-3 btn-light">Borrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
   <!-- Scripts -->
-  <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="assets/js/plugins/bootstrap.min.js"></script>
-  <script src="assets/js/plugins.js"></script>
-  <script src="assets/js/main.js"></script>
+    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/popper.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
+ <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
 
 </html>
